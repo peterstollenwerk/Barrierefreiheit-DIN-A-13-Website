@@ -52,8 +52,7 @@ Um auf Touch–Devices eine gute Bedienbarkeit zu gewährleisten wurden für die
 
 [HAUPT NAVIGATION]
 
-Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Video: Hand-Zittern](https://axesslab.com/hand-tremors/).
-
+Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Video: Hand-Zittern](https://www.youtube.com/watch?v=BE5WRtWPmAw).
 Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Zwischenraum.
 
 
