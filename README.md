@@ -11,7 +11,7 @@ Bitte beurteilen Sie die Seite daher zur Zeit mit Ihrem Mobilgerät.
 
 Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klappe: Sie verbessern die Barrierefreiheit der Seite, und, die Seite wird von Suchmaschinen besser gefunden / indiziert. 
 
-<video src="01_seo-audit.mp4" controls width="480" height="320"/>
+<video src="01_seo-audit.mp4" controls width="480" height="320"></video>
 
 [SEO AUDIT](01_seo-audit.mp4)
 
