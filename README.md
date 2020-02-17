@@ -17,9 +17,17 @@ Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klapp
 
 [01_seo-audit.mp4](01_seo-audit.mp4)
 
-Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche die Suchmaschine direkt als Event verarbeiten kann:
+### Strukturierte Daten
 
-[Beispiel](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Forangeju.uber.space%2Fde%2Ftanzeducation%2Fsymposien%2Fmixed-abled-dance-education-an-hochschulen)
+Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche eine Suchmaschine direkt als Event verarbeiten kann:
+
+<video src="01_seo-audit.mp4" controls width="480" height="320"></video>
+
+[02_structured-data](02_structured-data.mp4)
+
+[DIN A 13 Event Seite im Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Forangeju.uber.space%2Fde%2Ftanzeducation%2Fsymposien%2Fmixed-abled-dance-education-an-hochschulen)
+
+### Styling vs. Inhalte
 
 Die Auszeichnung der Inhalte ist unabhängig vom Aussehen / Styling. Ohne Styles, ganz nackt, sieht die DIN A 13 Website so aus: 
 
