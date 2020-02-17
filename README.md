@@ -11,6 +11,11 @@ Bitte beurteilen Sie die Seite daher zur Zeit mit Ihrem Mobilgerät.
 
 Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klappe: Sie verbessern die Barrierefreiheit der Seite, und, die Seite wird von Suchmaschinen besser gefunden / indiziert. 
 
+
+<video controls width="640" height="480">
+  <source src=„01_seo-audit.mp4“ type='video/mp4'>
+</video>
+
 [SEO AUDIT](01_seo-audit.mp4)
 
 Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche die Suchmaschine direkt als Event verarbeiten kann:
