@@ -1,8 +1,3 @@
-
-
-
-
-
 # Barrierefreiheit – DIN A 13 Website
 
 Hinweis:
@@ -20,7 +15,7 @@ Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klapp
 
 Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche die Suchmaschine direkt als Event verarbeiten kann:
 
-[](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Forangeju.uber.space%2Fde%2Ftanzeducation%2Fsymposien%2Fmixed-abled-dance-education-an-hochschulen)
+[Beispiel](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Forangeju.uber.space%2Fde%2Ftanzeducation%2Fsymposien%2Fmixed-abled-dance-education-an-hochschulen)
 
 Die Auszeichnung der Inhalte ist unabhängig vom Aussehen / Styling. Ohne Styles, ganz nackt, sieht die DIN A 13 Website so aus: 
 
@@ -52,10 +47,8 @@ Um auf Touch–Devices eine gute Bedienbarkeit zu gewährleisten wurden für die
 
 [HAUPT NAVIGATION]
 
-Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Video: Hand-Zittern](https://www.youtube.com/watch?v=BE5WRtWPmAw).
+Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Problem](https://axesslab.com/hand-tremors/)
 Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Zwischenraum.
-
-
 
 ## Lesbarkeit
 
@@ -72,24 +65,44 @@ Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Pa
 
 [DEMO: ROT GRÜN SCHWÄCHE]
 
-—————————————— [TODO] ——————————————
-
 ##  Screenreader
 
-- [ ] Images of text MUST be avoided
-- [ ] Don´t read out image, if there is no alt tag! [Test: Welche Kombinationen machen sinn siehe HTML Seite]
+Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden ebenfalls (noch) nicht automatisch von Screenreadern interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website angelegt und als Alternative bereitgestellt werden. 
+
+[DEMO: Bild Startseite?]
+
+In einigen Fällen macht es Sinn diese alternativ Texte automatisch zu Erzeugen, um die Bereitstellung der Information für eine EditorIn so einfach wie möglich zu machen. Die Alternativtexte der Förderer-Logos am Seitenende werden auf der DIN A 13 Website automatisch generiert:
 
 [DEMO: Alt Text Sponsoren]
 
-- [ ] Aria-Labels wenn nur ICONS sichtbar sind: Springe zu: Bilder
+Bilder ohne Alternativ-Beschreibung oder Bildunterschrift werden auf der DIN A 13 Website automatisch so ausgegeben und formatiert, dass Sie von einem Screenreader ignoriert werden können. Diesbezüglich wurde eine Test-Seite erzeugt, um die zulässigen Kombinations-Möglichkeiten von Alternativtext und Bildunterschrift zu evaluieren:
 
-## External Media Privacy Dialog 
-- [ ] Video Privacy DIALOG BOX
+[LINK ZU VERSCHIEDEN Bildbeschreibungs-Techniquen]
+
+Interaktive Schaltflächen welche visuell nur mit einem Icon arbeiten können im Backend der DIN A 13 Website mit einem Text-Label für Screenreader in Ihrer Funktionalität für die jeweilige Sprache beschrieben werden:
+
+[Springe zu: Bilder]
+
+Dies wird im kommenden Update der Seite an entsprechenden Stellen wie z.B. der Schriftgrößen-Einstellungen vermehrt zum Einsatz kommen, sobald das entsprechenden Wording der Labels festgelegt ist. 
+
+## Video Datzenschutzhinweis Dialog
+
+Um die Privatsphäre der Nutzer zu gewährleisten verzichtet die DIN A 13 Website auf das direkte Laden von Vimeo und Youtube Videos. Vor dem Laden eines externen Videos wird dem Nutzer auf der DIN A 13 Website ein Datenschutzhinweis Dialog angezeigt, womit der Nutzer informiert wird und eine Entscheidung über den weiteren Ablauf treffen kann. 
+Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausforderung, da der vorherig aktive/fokussierte Inhalt zwar visuell sichtbar, aber mittels Keyboard oder Screenreader nicht mehr navigiert/angesprungen werden darf. Ein Navigation darf ausschließlich im Dialog stattfinden. Diese Funktionalität wird von der DIN A 13 Website bereitgestellt.
+
+[DEMO: DATENSCHUTZHINWEIS]
 
 ## Performant HTML
-- [ ] Network speed (mobile phone users or those on low network speed)
-- [ ] Performance Audit Chrome
+
+Die korrekte Auszeichnung der Inhalte spielt eine sehr wichtige Rolle für die Barrierefreiheit einer Website. Ebenso wichtig ist für die Bereitstellung der Inhalte nötige Datenmenge.
+Um die Datenmenge – gerade für Mobil-Nutzer – so klein wie möglich zu halten, werden für alle Bilder der DIN A 13 Website layout-spezifische Größen erzeugt. Diese Bildquellen sind im Quelltext hinterlegt, so dass ein moderner Browser die für die Darstellung beste Version eines Bildes automatisch auswählen kann.
+
+CSS & JS Concatinated und minified.
+
+[Performance Audit Chrome]
+
+- [ ] Lazy Loading von Bildern und Videos in der Übersichtsseite
 
 ## [] Text labels to describe the content: 
 »Click here« vs. »Read Article« 
- »Sind individualisierbar für Generierung unterschiedlicher Artikel.«
+	 »Sind individualisierbar für Generierung unterschiedlicher Artikel.«
