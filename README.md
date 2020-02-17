@@ -92,17 +92,20 @@ Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausfor
 
 [DEMO: DATENSCHUTZHINWEIS]
 
-## Performant HTML
+## Performantes HTML
 
 Die korrekte Auszeichnung der Inhalte spielt eine sehr wichtige Rolle für die Barrierefreiheit einer Website. Ebenso wichtig ist für die Bereitstellung der Inhalte nötige Datenmenge.
-Um die Datenmenge – gerade für Mobil-Nutzer – so klein wie möglich zu halten, werden für alle Bilder der DIN A 13 Website layout-spezifische Größen erzeugt. Diese Bildquellen sind im Quelltext hinterlegt, so dass ein moderner Browser die für die Darstellung beste Version eines Bildes automatisch auswählen kann.
+Um die Datenmenge – gerade für Mobil-Nutzer – so klein wie möglich zu halten, werden für alle Bilder der DIN A 13 Website layout-spezifische Größen erzeugt. Diese Varianten (unterschiedlichen Auflösungen) der Bildquellen sind im Quelltext hinterlegt, so dass ein moderner Browser die für die Darstellung beste Version eines Bildes automatisch auswählen und ausliefern kann.
 
-CSS & JS Concatinated und minified.
+[PERFORMANCE AUDIT CHROME]
 
-[Performance Audit Chrome]
+Bild- & Video-orientierte Nutzern der DIN A 13 Website können die zur Verfügung stehenden Medien der DIN A 13 Produktionen schnell auf der Übersichtsseite konsumieren, ohne die entsprechende Detailseite aufzurufen. Die gewünschten Medien werden dabei erst geladen, wenn diese vom Nutzer durch Betätigen der entsprechenden Schaltfläche angefordert werden.
+Dies Reduziert die Datenmenge beim Seitenaufruf auf das Nötigste.
 
-- [ ] Lazy Loading von Bildern und Videos in der Übersichtsseite
+[VIDEO: Nachladen der Bilder]
+
+Wie man im Video erkennen kann, ist der Zustand des Nachladens der Bilder für den Nutzer noch nicht optimal ersichtlich. Dies wird in einem kommenden Update der DIN A 13 Seite optimiert.
 
 ## [] Text labels to describe the content: 
 »Click here« vs. »Read Article« 
-	 »Sind individualisierbar für Generierung unterschiedlicher Artikel.«
+»Sind individualisierbar für Generierung unterschiedlicher Artikel.«
