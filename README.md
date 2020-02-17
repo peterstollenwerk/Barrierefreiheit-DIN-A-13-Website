@@ -15,23 +15,21 @@ Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klapp
 
 <video src="01_seo-audit.mp4" controls width="480" height="320"></video>
 
-[01_seo-audit.mp4](01_seo-audit.mp4)
+[Screencpature Video: 01_seo-audit.mp4](01_seo-audit.mp4)
 
 ### Strukturierte Daten
 
-Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche eine Suchmaschine direkt als Event verarbeiten kann:
+Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche eine [Suchmaschine direkt als Event verarbeiten kann](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Forangeju.uber.space%2Fde%2Ftanzeducation%2Fsymposien%2Fmixed-abled-dance-education-an-hochschulen):
 
-<video src="01_seo-audit.mp4" controls width="480" height="320"></video>
+<video src="02_structured-data.mp4" controls width="480" height="320"></video>
 
-[02_structured-data](02_structured-data.mp4)
+[Screencpature Video: 02_structured-data.mp4](02_structured-data.mp4)
 
-[DIN A 13 Event Seite im Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Forangeju.uber.space%2Fde%2Ftanzeducation%2Fsymposien%2Fmixed-abled-dance-education-an-hochschulen)
+Die Auszeichnung der Inhalte ist unabhängig vom Aussehen / Styling. Ohne Styles, ganz nackt, sieht die DIN A 13 Website so aus:
 
-### Styling vs. Inhalte
+<video src="03_just-html-no-styles.mp4" controls width="480" height="320"></video>
 
-Die Auszeichnung der Inhalte ist unabhängig vom Aussehen / Styling. Ohne Styles, ganz nackt, sieht die DIN A 13 Website so aus: 
-
-[NACKTE WEBSITE]
+[Screencpature Video: 03_just-html-no-styles.mp4](03_just-html-no-styles.mp4)
 
 Diese nackte Darstellung gibt einen guten Einblick in die eigentliche Abfolge der Inhalte. Ein Screenreader arbeitet sich linear, von oben nach unten durch diese Abfolge.
 
