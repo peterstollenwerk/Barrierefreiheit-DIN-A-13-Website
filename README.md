@@ -73,23 +73,29 @@ Um auf Touch–Devices eine gute Bedienbarkeit zu gewährleisten wurden für die
 
 <img src="08_minimal-touch-height.png" width="480" />
 
-[08_minimal-touch-height.png](08_minimal-touch-height.png)
+[Screenshot: 08_minimal-touch-height.png](08_minimal-touch-height.png)
 
-Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Problem](https://axesslab.com/hand-tremors/)
-Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Raum, zum Scrollen.
+Personen mit [Hand-Zittern](https://www.youtube.com/watch?v=BE5WRtWPmAw) haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Raum.
 
 ## Kontraste & Lesbarkeit
 
 Neben der Möglichkeit die Schriftgröße mittels des Browsers zu verändern, besitzt die DIN A 13 Website explizite Schaltflächen. Diese ermöglichen das einfache Verändern der Schriftgröße auf einem mobilen Gerät.
 
-Im Backend gibt es die Möglichkeit Inhalte mit unterschiedlichen Farbkombinationen für Schrift und Hintergrund auszuzeichnen. Diese entsprechen den empfohlenen Richtlinien:
+<video src="09_change-font-size.mp4" controls width="480" height="320"></video>
 
-[ACCESSIBLE AUDIT]
-[SCREENSHOT FARBKOMBINATIONEN]
+[Screencpature Video: 09_change-font-size.mp4](09_change-font-size.mp4)
+
+Im Backend hat die EditorIn die Möglichkeit Inhalte mit unterschiedlichen Farbkombinationen von Schrift und Hintergrundgründen hervorzuheben. Die Kontraste sind bei der DIN A 13 Website fein abgestimmt und entsprechen den empfohlenen Richtlinien zur Lesbarkeit:
+
+<img src="10_allowed-color-contrasts-combinations.png" width="480" />
+
+[Screenshot: 10_allowed-color-contrasts-combinations.png](10_allowed-color-contrasts-combinations.png)
 
 Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Patterns kombiniert werden. Um die Lesbarkeit des Textes zu gewährleisten wurden spezielle CSS-Klassen entwickelt, welche die Patterns nur an Nicht-Textstellen zeigt.
 
-[BILD PATTERN BOX MIT VERLAUF]
+<video src="11_background-pattern-with-gradient-readability.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 11_background-pattern-with-gradient-readability.mp4](11_background-pattern-with-gradient-readability.mp4)
 
 [DEMO: ROT GRÜN SCHWÄCHE]
 
@@ -105,7 +111,7 @@ In einigen Fällen macht es Sinn diese alternativ Texte automatisch zu Erzeugen,
 
 Bilder ohne Alternativ-Beschreibung oder Bildunterschrift werden auf der DIN A 13 Website automatisch so ausgegeben und formatiert, dass Sie von einem Screenreader ignoriert werden können. Diesbezüglich wurde eine Test-Seite erzeugt, um die zulässigen Kombinations-Möglichkeiten von Alternativtext und Bildunterschrift zu evaluieren:
 
-[LINK ZU VERSCHIEDEN Bildbeschreibungs-Techniquen]
+[Accessible figure-/image-link combinations](https://codepen.io/stollenwerk/pen/QWbbyja)
 
 Interaktive Schaltflächen welche visuell nur mit einem Icon arbeiten können im Backend der DIN A 13 Website mit einem Text-Label für Screenreader in Ihrer Funktionalität für die jeweilige Sprache beschrieben werden:
 
@@ -133,3 +139,15 @@ Dies Reduziert die Datenmenge beim Seitenaufruf auf das Nötigste.
 [VIDEO: Nachladen der Bilder]
 
 Wie man im Video erkennen kann, ist der Zustand des Nachladens der Bilder für den Nutzer noch nicht optimal ersichtlich. Dies wird in einem kommenden Update der DIN A 13 Seite optimiert.
+
+## Accessible AUDIT
+
+<video src="00_accessibility-audit-chrome.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 00_accessibility-audit-chrome.mp4](00_accessibility-audit-chrome.mp4)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+## Ressources
+
+- https://axesslab.com/hand-tremors/
+- https://developers.google.com/web/fundamentals/accessibility/how-to-review?utm_source=lighthouse&utm_medium=devtools
