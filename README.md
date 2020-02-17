@@ -105,13 +105,11 @@ Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Pa
 
 ## Screenreader
 
-Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden (noch) nicht von Screenreadern automatisch interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website angelegt und als Alternative bereitgestellt werden. 
-
-[DEMO: Bild Startseite?]
+Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden (noch) nicht von Screenreadern automatisch interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website bereitgestellt werden.
 
 In einigen Fällen macht es Sinn diese alternativ Texte automatisch zu Erzeugen, um die Bereitstellung der Information für eine EditorIn so einfach wie möglich zu machen. Die Alternativtexte der Förderer-Logos am Seitenende werden auf der DIN A 13 Website automatisch generiert:
 
-[DEMO: Alt Text Sponsoren]
+[DEMO: Bild Startseite]
 
 Bilder ohne Alternativ-Beschreibung oder Bildunterschrift werden auf der DIN A 13 Website automatisch so ausgegeben und formatiert, dass Sie von einem Screenreader ignoriert werden können. Diesbezüglich wurde eine Test-Seite erzeugt, um die zulässigen Kombinations-Möglichkeiten von Alternativtext und Bildunterschrift zu evaluieren:
 
@@ -119,7 +117,7 @@ Bilder ohne Alternativ-Beschreibung oder Bildunterschrift werden auf der DIN A 1
 
 Interaktive Schaltflächen welche visuell nur mit einem Icon arbeiten können im Backend der DIN A 13 Website mit einem Text-Label für Screenreader in Ihrer Funktionalität für die jeweilige Sprache beschrieben werden:
 
-[Springe zu: Bilder]
+[DEMO: Springe zu: Bilder]
 
 Dies wird im kommenden Update der Seite an entsprechenden Stellen wie z.B. der Schriftgrößen-Einstellungen vermehrt zum Einsatz kommen, sobald das entsprechenden Wording der Labels festgelegt ist. 
 
