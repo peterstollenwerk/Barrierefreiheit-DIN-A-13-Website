@@ -71,10 +71,12 @@ Am Ende der Seite angekommen Hilft ein To-Top-Link zurück an den Dokument-Anfan
 
 Um auf Touch–Devices eine gute Bedienbarkeit zu gewährleisten wurden für die DIN A 13 Website spezielle CSS-Klassen entwickelt, welche eine Mindesthöhe von 15mm für die wichtigsten interaktiven Schaltflächen und Links garantieren:
 
+<img src="08_minimal-touch-height.png" width="480" />
+
 [08_minimal-touch-height.png](08_minimal-touch-height.png)
 
 Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Problem](https://axesslab.com/hand-tremors/)
-Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Zwischenraum.
+Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Raum, zum Scrollen.
 
 ## Kontraste & Lesbarkeit
 
