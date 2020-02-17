@@ -55,11 +55,17 @@ Den Skip-Links können von der EditorIn der DIN A 13 Website Accesskeys zugewies
 
 Neben der Skip-Navigation fasst eine Section-Navigation die Hauptinhalte der jeweiligen Seite als Inhaltsverzeichnis zusammen. Dies erlaubt es dem Nutzer direkt an die gewünschte Stelle des Dokumentes zu springen:
 
-[DEMO TOC-NAV]
+<video src="06_section-navigation.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 06_section-navigation.mp4](06_section-navigation.mp4)
 
 Mittels automatisch generierter Anchor Links in den Sections-Überschriften kann innerhalb des Hauptinhalts mittels TAB-Taste und SHIFT+TAB-Taste die Sektionen angesprungen werden:
 
-[DEMO: Überschrift Anchor Links]
+<video src="07_section-headline-anchor-links.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 07_section-headline-anchor-links.mp4](07_section-headline-anchor-links.mp4)
+
+TO TOP LINK aktuell nicht auf dem Server
 
 ## Touch-Navigation
 
