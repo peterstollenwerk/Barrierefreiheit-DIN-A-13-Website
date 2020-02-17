@@ -11,9 +11,7 @@ Bitte beurteilen Sie die Seite daher zur Zeit mit Ihrem Mobilgerät.
 
 Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klappe: Sie verbessern die Barrierefreiheit der Seite, und, die Seite wird von Suchmaschinen besser gefunden / indiziert. 
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="https://github.com/peterstollenwerk/Barrierefreiheit-DIN-A-13-Website/blob/master/01_seo-audit.mp4">
-</video>
+<video src="01_seo-audit.mp4" />
 
 [SEO AUDIT](01_seo-audit.mp4)
 
