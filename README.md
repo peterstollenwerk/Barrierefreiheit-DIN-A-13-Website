@@ -50,7 +50,7 @@ Um auf Touch–Devices eine gute Bedienbarkeit zu gewährleisten wurden für die
 Personen mit Hand-Zittern haben es schwer mittels eines Touch Devices durch die Inhalte zu Scrollen, wenn sie versehentlich einen Link / Aktionsfläche berühren. [Problem](https://axesslab.com/hand-tremors/)
 Die DIN A 13 Website verzichtet daher auf eine großflächige Verlinkung von Bildern und nahtlose Aneinanderreihung von Links/Schaltflächen. Sie lässt Zwischenraum.
 
-## Lesbarkeit
+## Kontraste & Lesbarkeit
 
 Neben der Möglichkeit die Schriftgröße mittels des Browsers zu verändern, besitzt die DIN A 13 Website explizite Schaltflächen. Diese ermöglichen das einfache Verändern der Schriftgröße auf einem mobilen Gerät.
 
@@ -67,7 +67,7 @@ Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Pa
 
 ##  Screenreader
 
-Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden ebenfalls (noch) nicht automatisch von Screenreadern interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website angelegt und als Alternative bereitgestellt werden. 
+Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden (noch) nicht von Screenreadern automatisch interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website angelegt und als Alternative bereitgestellt werden. 
 
 [DEMO: Bild Startseite?]
 
@@ -105,7 +105,3 @@ Dies Reduziert die Datenmenge beim Seitenaufruf auf das Nötigste.
 [VIDEO: Nachladen der Bilder]
 
 Wie man im Video erkennen kann, ist der Zustand des Nachladens der Bilder für den Nutzer noch nicht optimal ersichtlich. Dies wird in einem kommenden Update der DIN A 13 Seite optimiert.
-
-## [] Text labels to describe the content: 
-»Click here« vs. »Read Article« 
-»Sind individualisierbar für Generierung unterschiedlicher Artikel.«
