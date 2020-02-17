@@ -35,11 +35,23 @@ Diese nackte Darstellung gibt einen guten Einblick in die eigentliche Abfolge de
 
 ## Keyboard Navigation
 
-Um sich zügig auf der Website Bewegen zu können, nutzt die DIN A 13 Website eine sogenannte Skip-/Sprung-Navigation. Hierbei Handelt es sich um Links am Seitenanfang, die es einem Screenreader- oder Keyboard-Nutzer erlauben, direkt an eine bestimmte Stelle im Dokument zu springen. Diese Links sind für einen »normalen« Nutzer nur ersichtlich, wenn dieser mit der Tab-Taste durch die Inhalte navigiert.
+### Skip-Links
 
-[DEMO SKIP-NAV]
+Um sich zügig auf der Website Bewegen zu können, nutzt die DIN A 13 Website eine sogenannte Skip-Navigation. Hierbei Handelt es sich um Links am Seitenanfang, die es einem Screenreader- oder Keyboard-Nutzer erlauben, direkt an eine bestimmte Stelle im Dokument zu springen. Diese Links sind für einen »normalen« Nutzer nur ersichtlich, wenn dieser mit der Tab-Taste durch die Inhalte navigiert.
 
-[[ TODO: Accesskeys ]]
+<video src="04_skip-navigation.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 04_skip-navigation.mp4](04_skip-navigation.mp4)
+
+#### Accesskeys
+
+Den Skip-Links können von der EditorIn der DIN A 13 Website Accesskeys zugewiesen werden. Die Skip-Links sind somit über das drücken einer Tastenkombination an einer beliebigen Stelle des Dokumentes ausführbar. Die Accesskeys können sich je nach Browser und Betriebssystem unterscheiden. Weitere Informationen zum [Accesskey](https://developer.mozilla.org/de/docs/Web/HTML/Globale_Attribute/accesskey).
+
+<video src="05_accesskeys.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 05_accesskeys.mp4](05_accesskeys.mp4)
+
+### Section-Navigation (Table of Contents)
 
 Neben der Skip-Navigation fasst eine Section-Navigation die Hauptinhalte der jeweiligen Seite als Inhaltsverzeichnis zusammen. Dies erlaubt es dem Nutzer direkt an die gewünschte Stelle des Dokumentes zu springen:
 
