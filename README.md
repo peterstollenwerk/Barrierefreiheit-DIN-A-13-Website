@@ -11,7 +11,7 @@ Bitte beurteilen Sie die Seite daher zur Zeit mit Ihrem Mobilgerät.
 
 Semantische korrekt ausgezeichnete Inhalte schlagen zwei Fliegen mit einer Klappe: Sie verbessern die Barrierefreiheit der Seite, und, die Seite wird von Suchmaschinen besser gefunden / indiziert. 
 
-[SEO AUDIT]
+[SEO AUDIT](01_seo-audit.mp4)
 
 Zusätzlich zu semantischem HTML kann mittels strukturierter Daten die Reichhaltigkeit der Information gesteigert werden. Im Falle der DIN A 13 Website werden Events in Form von strukturierten Daten ausgegeben, welche die Suchmaschine direkt als Event verarbeiten kann:
 
@@ -30,8 +30,6 @@ Um sich zügig auf der Website Bewegen zu können, nutzt die DIN A 13 Website ei
 [DEMO SKIP-NAV]
 
 [[ TODO: Accesskeys ]]
-
-### Section-Navigation
 
 Neben der Skip-Navigation fasst eine Section-Navigation die Hauptinhalte der jeweiligen Seite als Inhaltsverzeichnis zusammen. Dies erlaubt es dem Nutzer direkt an die gewünschte Stelle des Dokumentes zu springen:
 
