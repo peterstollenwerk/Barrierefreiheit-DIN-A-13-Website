@@ -91,15 +91,19 @@ Im Backend hat die EditorIn die Möglichkeit Inhalte mit unterschiedlichen Farbk
 
 [Screenshot: 10_allowed-color-contrasts-combinations.png](10_allowed-color-contrasts-combinations.png)
 
-Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Patterns kombiniert werden. Um die Lesbarkeit des Textes zu gewährleisten wurden spezielle CSS-Klassen entwickelt, welche die Patterns nur an Nicht-Textstellen zeigt.
+Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Patterns kombiniert werden. Um die Lesbarkeit des Textes zu gewährleisten wurden spezielle CSS-Klassen entwickelt, welche die Patterns außerhalb des Textes zeigt:
 
 <video src="11_background-pattern-with-gradient-readability.mp4" controls width="480" height="320"></video>
 
 [Screencpature Video: 11_background-pattern-with-gradient-readability.mp4](11_background-pattern-with-gradient-readability.mp4)
 
-[DEMO: ROT GRÜN SCHWÄCHE]
+### Simulation Rot-Grün-Sehschwäche
 
-##  Screenreader
+<video src="12_color-blindness-simulation.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 12_color-blindness-simulation.mp4](12_color-blindness-simulation.mp4)
+
+## Screenreader
 
 Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden (noch) nicht von Screenreadern automatisch interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website angelegt und als Alternative bereitgestellt werden. 
 
