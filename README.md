@@ -4,7 +4,7 @@ Hinweis:
 Dies ist Test-Version der zukünftigen DIN A 13 Website.
 Die Seite dient zu Demozwecken, der Funktionalitäten bzgl. der Barrierefreiheit. Die Inhalte besitzen keinen Anspruch auf Vollständig- oder Richtigkeit. Inhalte auf englischer Sprache sind nicht oder nur teilweise angelegt.
 Die Entwicklung folgt einem Mobile-First-Ansatz, in der die Mobile Nutzbarkeit Priorität hat.
-In folgendem Entwicklungs-Schritten werden zusätzliche Desktop-Styles angelegt, welche die User-Experience auf großen Bildschirmen optimiert.
+In folgenden Entwicklungs-Schritten werden zusätzliche Desktop-Styles angelegt, welche die User-Experience auf großen Bildschirmen optimiert.
 Bitte beurteilen Sie die Seite daher zur Zeit mit Ihrem Mobilgerät.
 
 ## Semantisches HTML
@@ -65,7 +65,7 @@ Mittels automatisch generierter Anchor Links in den Sections-Überschriften kann
 
 [Screencpature Video: 07_section-headline-anchor-links.mp4](07_section-headline-anchor-links.mp4)
 
-Am Ende der Seite angekommen Hilft ein To-Top-Link zurück an den Dokument-Anfang zu springen. Dieser funktioniert zur Zeit nur Lokal und wird bei einem künftigen Update auf dem Test-Server implementiert.
+Am Ende der Seite angekommen hilft ein To-Top-Link zurück an den Dokument-Anfang zu springen. Dieser funktioniert zur Zeit nur Lokal und wird bei einem künftigen Update auf dem Test-Server implementiert.
 
 ## Touch-Navigation
 
@@ -132,7 +132,7 @@ Dies wird im kommenden Update der DIN A 13 Website an entsprechenden Stellen wie
 ## Video Datzenschutzhinweis Dialog
 
 Um die Privatsphäre der Nutzer zu gewährleisten verzichtet die DIN A 13 Website auf das direkte Laden von Vimeo und Youtube Videos. Vor dem Laden eines externen Videos wird dem Nutzer auf der DIN A 13 Website ein Datenschutzhinweis Dialog angezeigt, womit der Nutzer informiert wird und eine Entscheidung über den weiteren Ablauf treffen kann.
-Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausforderung, da der vorherig aktive/fokussierte Inhalt zwar visuell sichtbar, aber mittels Keyboard oder Screenreader nicht mehr navigiert/angesprungen werden darf. Ein Navigation darf ausschließlich im Dialog stattfinden. Diese Funktionalität wird von der DIN A 13 Website bereitgestellt:
+Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausforderung, da der vorherig aktive/fokussierte Inhalt zwar visuell sichtbar, aber mittels Keyboard oder Screenreader nicht mehr navigiert/angesprungen werden darf. Eine Navigation darf ausschließlich im Dialog stattfinden. Diese Funktionalität wird von der DIN A 13 Website bereitgestellt:
 
 <video src="15_external-media-privacy-dialog.mp4" controls width="480" height="320"></video>
 
@@ -141,14 +141,14 @@ Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausfor
 ## Performantes HTML
 
 Die korrekte Auszeichnung der Inhalte spielt eine sehr wichtige Rolle für die Barrierefreiheit einer Website. Ebenso wichtig ist für die Bereitstellung der Inhalte nötige Datenmenge.
-Um die Datenmenge – gerade für Mobil-Nutzer – so klein wie möglich zu halten, werden für alle Bilder der DIN A 13 Website layout-spezifische Größen erzeugt. Diese Varianten (unterschiedlichen Auflösungen) der Bildquellen sind im Quelltext hinterlegt, so dass ein moderner Browser die für die Darstellung beste Version eines Bildes automatisch auswählen und ausliefern kann.
+Um die Datenmenge – gerade für Mobil-Nutzer – so klein wie möglich zu halten, werden für alle Bilder der DIN A 13 Website layout-spezifische Größen erzeugt. Diese Varianten (unterschiedliche Auflösungen) der Bildquellen sind im Quelltext hinterlegt, so dass ein moderner Browser die für die Darstellung beste Version eines Bildes automatisch auswählen und ausliefern kann.
 
 <video src="16_performance-audit-chrome-throttling.mp4" controls width="480" height="320"></video>
 
 [Screencpature Video: 16_performance-audit-chrome-throttling.mp4](16_performance-audit-chrome-throttling.mp4)
 
 Bild- & Video-orientierte Nutzern der DIN A 13 Website können die zur Verfügung stehenden Medien der DIN A 13 Produktionen schnell auf der Produktions-Übersichtsseite konsumieren, ohne die entsprechende Detailseite aufzurufen. Die gewünschten Medien werden dabei erst geladen, wenn diese vom Nutzer durch Betätigen der entsprechenden Schaltfläche angefordert werden.
-Dies Reduziert die Datenmenge beim Seitenaufruf auf das Nötigste:
+Dies reduziert die Datenmenge beim Seitenaufruf auf das Nötigste:
 
 <video src="17_performance-lazy-media-loading.mp4" controls width="480" height="320"></video>
 
