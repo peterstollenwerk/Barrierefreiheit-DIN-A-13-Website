@@ -143,12 +143,16 @@ Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausfor
 Die korrekte Auszeichnung der Inhalte spielt eine sehr wichtige Rolle für die Barrierefreiheit einer Website. Ebenso wichtig ist für die Bereitstellung der Inhalte nötige Datenmenge.
 Um die Datenmenge – gerade für Mobil-Nutzer – so klein wie möglich zu halten, werden für alle Bilder der DIN A 13 Website layout-spezifische Größen erzeugt. Diese Varianten (unterschiedlichen Auflösungen) der Bildquellen sind im Quelltext hinterlegt, so dass ein moderner Browser die für die Darstellung beste Version eines Bildes automatisch auswählen und ausliefern kann.
 
-[PERFORMANCE AUDIT CHROME]
+<video src="16_performance-audit-chrome-throttling.mp4" controls width="480" height="320"></video>
 
-Bild- & Video-orientierte Nutzern der DIN A 13 Website können die zur Verfügung stehenden Medien der DIN A 13 Produktionen schnell auf der Übersichtsseite konsumieren, ohne die entsprechende Detailseite aufzurufen. Die gewünschten Medien werden dabei erst geladen, wenn diese vom Nutzer durch Betätigen der entsprechenden Schaltfläche angefordert werden.
-Dies Reduziert die Datenmenge beim Seitenaufruf auf das Nötigste.
+[Screencpature Video: 16_performance-audit-chrome-throttling.mp4](16_performance-audit-chrome-throttling.mp4)
 
-[VIDEO: Nachladen der Bilder]
+Bild- & Video-orientierte Nutzern der DIN A 13 Website können die zur Verfügung stehenden Medien der DIN A 13 Produktionen schnell auf der Produktions-Übersichtsseite konsumieren, ohne die entsprechende Detailseite aufzurufen. Die gewünschten Medien werden dabei erst geladen, wenn diese vom Nutzer durch Betätigen der entsprechenden Schaltfläche angefordert werden.
+Dies Reduziert die Datenmenge beim Seitenaufruf auf das Nötigste:
+
+<video src="17_performance-lazy-media-loading.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 17_performance-lazy-media-loading.mp4](17_performance-lazy-media-loading.mp4)
 
 Wie man im Video erkennen kann, ist der Zustand des Nachladens der Bilder für den Nutzer noch nicht optimal ersichtlich. Dies wird in einem kommenden Update der DIN A 13 Seite optimiert.
 
