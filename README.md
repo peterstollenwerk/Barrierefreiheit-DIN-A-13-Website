@@ -107,26 +107,36 @@ Die verschiedenen Farbkombinationen und Farbverläufe können zusätzlich mit Pa
 
 Text ist bei der DIN A 13 Website Text. Nur dieser kann von Screenreadern zur Zeit vorgelesen werden. Bilder mit Pixel-Daten werden (noch) nicht von Screenreadern automatisch interpretiert. Eine Bildbeschreibung kann daher von der EditorIn der DIN A 13 Website bereitgestellt werden.
 
+<video src="13_screenreading-homepage-part-1.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 13_screenreading-homepage-part-1.mp4](13_screenreading-homepage-part-1.mp4)
+
 In einigen Fällen macht es Sinn diese alternativ Texte automatisch zu Erzeugen, um die Bereitstellung der Information für eine EditorIn so einfach wie möglich zu machen. Die Alternativtexte der Förderer-Logos am Seitenende werden auf der DIN A 13 Website automatisch generiert:
 
-[DEMO: Bild Startseite]
+<video src="13_screenreading-homepage-part-2.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 13_screenreading-homepage-part-2.mp4](13_screenreading-homepage-part-2.mp4)
 
 Bilder ohne Alternativ-Beschreibung oder Bildunterschrift werden auf der DIN A 13 Website automatisch so ausgegeben und formatiert, dass Sie von einem Screenreader ignoriert werden können. Diesbezüglich wurde eine Test-Seite erzeugt, um die zulässigen Kombinations-Möglichkeiten von Alternativtext und Bildunterschrift zu evaluieren:
 
 [Accessible figure-/image-link combinations](https://codepen.io/stollenwerk/pen/QWbbyja)
 
-Interaktive Schaltflächen welche visuell nur mit einem Icon arbeiten können im Backend der DIN A 13 Website mit einem Text-Label für Screenreader in Ihrer Funktionalität für die jeweilige Sprache beschrieben werden:
+Für Interaktive Schaltflächen welche visuell ausschließlich mit einem Icon arbeiten, können im Backend der DIN A 13 Website einem Text-Label hinzugefügt werden, die die Funktionalität der Schaltfläche in der jeweiligen Sprache beschreibt. Als Beispiel dienen die Zu-Medien-Skip-Links am Anfang des Hauptinhaltes für Videos und Bilder:
 
-[DEMO: Springe zu: Bilder]
+<video src="14_icon-skip-links.mp4" controls width="480" height="320"></video>
 
-Dies wird im kommenden Update der Seite an entsprechenden Stellen wie z.B. der Schriftgrößen-Einstellungen vermehrt zum Einsatz kommen, sobald das entsprechenden Wording der Labels festgelegt ist. 
+[Screencpature Video: 14_icon-skip-links.mp4](14_icon-skip-links.mp4)
+
+Dies wird im kommenden Update der DIN A 13 Website an entsprechenden Stellen wie z.B. der Schriftgrößen-Einstellungen vermehrt zum Einsatz kommen, sobald das finale Wording der Labels abgestimmt ist.
 
 ## Video Datzenschutzhinweis Dialog
 
-Um die Privatsphäre der Nutzer zu gewährleisten verzichtet die DIN A 13 Website auf das direkte Laden von Vimeo und Youtube Videos. Vor dem Laden eines externen Videos wird dem Nutzer auf der DIN A 13 Website ein Datenschutzhinweis Dialog angezeigt, womit der Nutzer informiert wird und eine Entscheidung über den weiteren Ablauf treffen kann. 
-Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausforderung, da der vorherig aktive/fokussierte Inhalt zwar visuell sichtbar, aber mittels Keyboard oder Screenreader nicht mehr navigiert/angesprungen werden darf. Ein Navigation darf ausschließlich im Dialog stattfinden. Diese Funktionalität wird von der DIN A 13 Website bereitgestellt.
+Um die Privatsphäre der Nutzer zu gewährleisten verzichtet die DIN A 13 Website auf das direkte Laden von Vimeo und Youtube Videos. Vor dem Laden eines externen Videos wird dem Nutzer auf der DIN A 13 Website ein Datenschutzhinweis Dialog angezeigt, womit der Nutzer informiert wird und eine Entscheidung über den weiteren Ablauf treffen kann.
+Ein Dialog ist für die Barrierefreiheit aus technischer Hinsicht eine Herausforderung, da der vorherig aktive/fokussierte Inhalt zwar visuell sichtbar, aber mittels Keyboard oder Screenreader nicht mehr navigiert/angesprungen werden darf. Ein Navigation darf ausschließlich im Dialog stattfinden. Diese Funktionalität wird von der DIN A 13 Website bereitgestellt:
 
-[DEMO: DATENSCHUTZHINWEIS]
+<video src="15_external-media-privacy-dialog.mp4" controls width="480" height="320"></video>
+
+[Screencpature Video: 15_external-media-privacy-dialog.mp4](15_external-media-privacy-dialog.mp4)
 
 ## Performantes HTML
 
@@ -147,9 +157,3 @@ Wie man im Video erkennen kann, ist der Zustand des Nachladens der Bilder für d
 <video src="00_accessibility-audit-chrome.mp4" controls width="480" height="320"></video>
 
 [Screencpature Video: 00_accessibility-audit-chrome.mp4](00_accessibility-audit-chrome.mp4)
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-## Ressources
-
-- https://axesslab.com/hand-tremors/
-- https://developers.google.com/web/fundamentals/accessibility/how-to-review?utm_source=lighthouse&utm_medium=devtools
